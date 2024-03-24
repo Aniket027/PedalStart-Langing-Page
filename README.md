@@ -50,8 +50,6 @@ This repository is created as part of an assignment to develop a landing page fo
     yarn start
     ```
 
-5. **Access the Landing Page**: Open your web browser and navigate to [http://localhost:5173](http://localhost:5173) to view the PedalStart landing page served by the frontend development server.
-
 ## Production Deployment
 
 For production deployment, you would build the frontend React app and serve it using Express as a static file server. Please follow the deployment instructions for both backend and frontend separately based on your hosting platform.
