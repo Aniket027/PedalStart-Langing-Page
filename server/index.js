@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://admin:admin@admin.y05etht.mongodb.net/PedalStop');
+mongoose.connect('Enter your database id');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
